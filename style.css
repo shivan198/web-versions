@@ -118,10 +118,6 @@ a:link {
 }
 
 
-/* ---------------- */
-/****** web1 ******/
-/* ---------------- */
-
 #webol {
     margin: 10px 10% 30px 10%;
 }
@@ -131,7 +127,38 @@ a:link {
     border: 10px solid aqua;
 }
 
+/* ---------------- */
+/******* web3 *******/
+/* ---------------- */
 
+#decsec {
+    margin: 0 5%;
+    background-color: antiquewhite;
+}
+
+#dec div {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    padding: 5%;
+}
+
+table {
+    margin: 3% 8%;
+    padding: 10px 20px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: aqua;
+    height: 40px;
+}
+
+td {
+    background-color : azure;
+    height: 40px;
+    text-align: center
+}
 /* ---------------- */
 /****** gallery ******/
 /* ---------------- */
@@ -150,7 +177,10 @@ a:link {
     border: 8px solid aqua;
 }
 
-
+#videos legend {
+    padding-left: 40px;
+    font-size: 30px;
+}
 
 
 
