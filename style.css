@@ -1,25 +1,29 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+   
 }
+
+
 
 /* ---------------- */
 /****** navbar ******/
 /* ---------------- */
 
 #navbar {
-    background-color: aqua;
-    color: black;
+    background-color: #024452;
     height: 60px;
     width: 100%;
     position: fixed;
     overflow: hidden;
+}
+#navbar ul{
+    margin: 0 5%;
 }
 
 #navbar ul li{
@@ -28,11 +32,19 @@ body {
     list-style: none;
     font-size: 25px;
     font-weight: 500;
+    color: white;
+    
 }
 
 #navbar ul li:hover {
-    background-color: bisque;
+    background-color: #135563;
     text-transform: capitalize;
+}
+
+
+#navbar a {
+    text-decoration: none;
+    color: white;
 }
 
 a:link {
@@ -40,11 +52,19 @@ a:link {
     color: black;
 }
 
-#internet { background-color: white;  }
-#web {
-    background-color: antiquewhite;
+a {
+    color: black;
+}
+
+#internet { background-color: #dcf1f5;}
+#web { background-color: antiquewhite;
+margin-top: 0;
 }
 #summary { background-color: white;}
+#webone {background-color: #dcf1f5}
+#webtwo {background-color: #dcf1f5}
+#summary {background-color: #dcf1f5}
+
 
 #content {
     padding-top: 60px;
@@ -53,6 +73,7 @@ a:link {
 
 #headp {
     padding: 20px;
+    
 }
 
 #conp {
@@ -62,15 +83,14 @@ a:link {
 
 #yvideo {
     margin: 30px 25%;
-    border: 10px solid aqua;
     padding: 12px;
 }
 
 #marq{
     height: 35px;
     width: 100%;
-    background-color: aqua;
-    color: black;
+    background-color: #024452;
+    color: white;
     font-weight: 500;
     padding-top: 5px;
 }
@@ -85,7 +105,7 @@ a:link {
 
 #footer {
     height: 70px;
-    background-color: #2b2b2a;
+    background-color: #024452;
     color : white;
     width: 100%;
 }
@@ -124,7 +144,7 @@ a:link {
 
 #fullyvideo {
     margin: 30px 10%;
-    border: 10px solid aqua;
+    border: 10px solid #024452;
 }
 
 /* ---------------- */
@@ -133,7 +153,10 @@ a:link {
 
 #decsec {
     margin: 0 5%;
-    background-color: antiquewhite;
+}
+
+.decenter{
+    background-color: #dcf1f5;
 }
 
 #dec div {
@@ -143,6 +166,10 @@ a:link {
     padding: 5%;
 }
 
+#webthree {
+    background-color: #dcf1f5;
+}
+
 table {
     margin: 3% 8%;
     padding: 10px 20px;
@@ -150,7 +177,8 @@ table {
 }
 
 th {
-    background-color: aqua;
+    background-color: #024452;
+    color: white;
     height: 40px;
 }
 
@@ -165,16 +193,21 @@ td {
 
 #videos {
     padding-top: 70px;
+    background-color: #dcf1f5;
+}
+
+iframe:hover{
+    filter: grayscale(100%)
 }
 
 #sameline {
-    margin: 2% 4%;
-    border: 8px solid aqua;
+    margin: 2% 3%;
+    border: 8px solid #024452;
 }
 
 #seperate {
     margin: 2% 29%;
-    border: 8px solid aqua;
+    border: 8px solid #024452;
 }
 
 #videos legend {
