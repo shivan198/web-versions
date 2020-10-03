@@ -5,7 +5,7 @@
 
 body {
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
    
 }
 
@@ -68,7 +68,17 @@ margin-top: 0;
 
 #content {
     padding-top: 60px;
+    padding-bottom: 30px;
     margin: 0 5%;
+}
+
+#content div {
+    display: inline-block;
+    padding: 10px 7%;
+}
+
+#content img {
+    border: 10px solid #024452; 
 }
 
 #headp {
@@ -104,7 +114,7 @@ margin-top: 0;
 /* ---------------- */
 
 #footer {
-    height: 70px;
+    height: 90px;
     background-color: #024452;
     color : white;
     width: 100%;
@@ -124,7 +134,7 @@ margin-top: 0;
     float: right;
     list-style: none;
     padding: 0 30px;
-    margin-right: 15%;
+    margin-right: 7%;
 }
 
 #use li {
@@ -143,9 +153,14 @@ margin-top: 0;
 }
 
 #fullyvideo {
-    margin: 30px 10%;
+    margin: 30px 13%;
     border: 10px solid #024452;
 }
+
+#webonetable td {
+    padding: 10px 20px;
+}
+
 
 /* ---------------- */
 /******* web3 *******/
@@ -163,14 +178,14 @@ margin-top: 0;
     display: inline-block;
     float: left;
     width: 50%;
-    padding: 5%;
+    padding: 3% 0px;
 }
 
 #webthree {
     background-color: #dcf1f5;
 }
 
-table {
+#webthreetable {
     margin: 3% 8%;
     padding: 10px 20px;
     border-collapse: collapse;
@@ -182,7 +197,7 @@ th {
     height: 40px;
 }
 
-td {
+#webthreetable td {
     background-color : azure;
     height: 40px;
     text-align: center
@@ -215,9 +230,17 @@ iframe:hover{
     font-size: 30px;
 }
 
+#same {
+    display: inline-block;
+    border: 8px solid #024452;
+    margin: 1% 9%;
+}
 
-
-
+#line {
+    display: inline-block;
+    border: 8px solid #024452;
+    margin: 1% 9%;
+}
 
 
 
